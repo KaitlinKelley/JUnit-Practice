@@ -17,8 +17,8 @@ public class MyFirstTest {
 
     @Test
     public void testIfArrayListsAreSame(){
-        List<String> languages = new ArrayList<String>();
-        List<String> moreLanguages = new ArrayList<String>();
+        List<String> languages = new ArrayList<>();
+        List<String> moreLanguages = new ArrayList<>();
 
         assertNotSame(languages, moreLanguages);
 
